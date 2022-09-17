@@ -1,0 +1,10 @@
+.courses{
+    color: white;
+    text-align: left;
+    padding: 70px 75px;
+}
+
+.courses__title{
+    line-height: 76px;
+    margin-left: 10px;
+}

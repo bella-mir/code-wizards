@@ -1,0 +1,21 @@
+.findpath {
+  margin-top: 50px;
+  background-color: #F1F1F1;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 70px 75px;
+}
+
+.findpath_title {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+
+.findpath_path {
+  background-image: url("../../images/Path.svg");
+  height: 300px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

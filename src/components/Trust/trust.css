@@ -1,0 +1,27 @@
+.trust {
+    position: relative;
+  padding: 70px 75px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  width:980px;
+
+}
+
+.trust__title {
+  margin: 0 0 50px 0;
+  font-size: 30px;
+}
+
+.trust__image {
+  width: 50px;
+}
+
+.trust__grid {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-row: auto auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: 0 auto;
+}

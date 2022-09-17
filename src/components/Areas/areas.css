@@ -1,0 +1,34 @@
+.areas{
+    padding: 70px 75px;
+    width:1200px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .areas__title {
+    margin: 0 0 50px 0;
+    font-size: 30px;
+  }
+
+  .areas__grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin: 0 auto;
+  }
+
+  .areas__list{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  .area{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+  }
+  

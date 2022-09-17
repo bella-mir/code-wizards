@@ -1,0 +1,28 @@
+.success {
+    margin-top: 50px;
+    background-color: #E7EBFC;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 70px 75px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+  }
+  
+  .success_title {
+      margin: 0 0 20px 0;
+      font-size: 30px;
+  }
+  
+  
+  .success_block {
+    height: 300px;
+    align-items: center;
+  }
+
+
+  .success_description{
+    max-width: 500px;
+  }
+  
