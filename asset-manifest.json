@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/code-wizards/static/css/main.170d9344.css",
-    "main.js": "/code-wizards/static/js/main.8c545259.js",
+    "main.js": "/code-wizards/static/js/main.0b24c501.js",
     "static/js/787.36c37203.chunk.js": "/code-wizards/static/js/787.36c37203.chunk.js",
     "static/media/computer2.jpg": "/code-wizards/static/media/computer2.b6c3931702238e97de51.jpg",
     "static/media/woman.png": "/code-wizards/static/media/woman.e1fe63cf5aae197433f6.png",
@@ -17,11 +17,11 @@
     "static/media/icon_2.svg": "/code-wizards/static/media/icon_2.965f95c6bda9a1c6add5a119e582edda.svg",
     "static/media/close_icon.svg": "/code-wizards/static/media/close_icon.2ceb783afbab75916ddc.svg",
     "main.170d9344.css.map": "/code-wizards/static/css/main.170d9344.css.map",
-    "main.8c545259.js.map": "/code-wizards/static/js/main.8c545259.js.map",
+    "main.0b24c501.js.map": "/code-wizards/static/js/main.0b24c501.js.map",
     "787.36c37203.chunk.js.map": "/code-wizards/static/js/787.36c37203.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.170d9344.css",
-    "static/js/main.8c545259.js"
+    "static/js/main.0b24c501.js"
   ]
 }
