@@ -1,28 +1,73 @@
 .success {
-    margin-top: 50px;
-    background-color: #E7EBFC;
-    padding: 30px;
-    border-radius: 10px;
-    margin: 70px 75px;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
+  margin-top: 50px;
+  background-color: #e7ebfc;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 70px 75px;
 
-  }
-  
-  .success_title {
-      margin: 0 0 20px 0;
-      font-size: 30px;
-  }
-  
-  
-  .success_block {
-    height: 300px;
-    align-items: center;
-  }
+}
+
+.success_title {
+    margin: 0 0 80px 0;
+    font-size: 30px;
+}
+
+.success_block {
+  height: 300px;
+  align-items: center;
+}
+
+.success_description {
+  max-width: 500px;
+}
 
 
-  .success_description{
-    max-width: 500px;
-  }
-  
+.container {
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 100;
+}
+.icon {
+  position: relative;
+  bottom: 11px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.profile img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+}
+.card {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  position: relative;
+  bottom: 35px;
+}
+.btn {
+  margin-top: 36px;
+  margin-bottom: 45px;
+  background-color: #ab47bc;
+  border: none;
+  color: #fff;
+}
+.btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  color: #fff;
+}
+.header {
+  padding-top: 40px;
+}

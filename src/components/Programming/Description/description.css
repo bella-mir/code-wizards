@@ -1,10 +1,11 @@
 .description {
     padding: 70px 75px;
-    background: url("../../../images/Programming.png") no-repeat;
-    background-size: fit;
+    background: url("../../../images/computer2.jpg") no-repeat;
+    background-size: 500px auto;
     background-position: right 70px top 75px;
     box-sizing: border-box;
     color: white;
+    height: 500px;
   }
 
   .title {

@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="footer__menu">
         <div className="footer__year">© 2022</div>
         <div className="footer__links"> 
-        <a className="footer__link" href="https://codenrock.com/">CodenRock</a>
+        <a className="footer__link" href="https://codenrock.com/" target='_blank'>CodenRock</a>
         </div>
       </div>
     </div>

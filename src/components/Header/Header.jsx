@@ -2,7 +2,12 @@ import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 
-export const Header = () => {
+
+export const Header = (props) => {
+
+
+
+
   return (
     <div className="header">
       <Link className="header__link" to="/">
@@ -35,9 +40,24 @@ export const Header = () => {
         <Link className="header__link" to="/contacts">
           Контакты
         </Link>
-        <Link className="header__link" to="/sign-up">
-          <button className="header__button">Присоединиться</button>
-        </Link>
+
+        {!props.email  ? (
+          <Link className="header__link" to="/sign-up">
+            <button className="header__button">Присоединиться</button>
+          </Link>
+        ) : (
+          <>
+            <p className="header__link" style={{margin:'0', color:'#3456f3'}}>{props.email}</p>
+            <Link className="header__link"   to="/rate-your-course">
+            <button className="header__button" style={{backgroundColor:'green'}}>
+              Оставить отзыв
+            </button>
+            </Link>
+            <button className="header__button" style={{backgroundColor:'gray'}} onClick={props.handleLogout}>
+              Выйти
+            </button>
+          </>
+        )}
       </div>
     </div>
   );
