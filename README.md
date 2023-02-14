@@ -6,7 +6,7 @@ CodenRock Hakathon 17.09.2022-18.09.2022
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/belka-mironova/code-wizards.git
+   git clone https://github.com/bella-mir/code-wizards.git
    ```
 2. Install NPM packages
    ```sh
